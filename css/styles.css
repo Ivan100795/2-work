@@ -80,8 +80,13 @@ ul {
   display: block;
   color: var(--secondary-text-color);
   text-decoration: none;
+  font-weight: 600;
   font-size: 20px;
   margin-bottom: 300px;
+}
+
+.logo-midlle {
+  margin-left: 420px;
 }
 
 /* header */
@@ -91,6 +96,18 @@ ul {
   text-decoration: none;
   font-size: 20px;
   margin-bottom: 0;
+  display: flex;
+}
+
+.logo {
+  display: flex;
+  text-align: center;
+}
+
+.triangle {
+  display: block;
+  margin: 0;
+  padding-top: 4px;
 }
 
 .nav {
@@ -310,6 +327,11 @@ ul {
   margin-left: 50px;
 }
 
+.part .link:hover,
+.part .link:focus {
+  color: var(--accent-text-color);
+}
+
 .footer {
   background-color: var(--footer-bg-color);
   color: var(--secondary-text-color);
@@ -356,6 +378,7 @@ ul {
   display: block;
   display: flex;
 }
+
 .social-pages .link + .link {
   margin-left: 40px;
 }
