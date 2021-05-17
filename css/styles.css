@@ -46,6 +46,7 @@ ul {
 .section-hero {
   background-image: url("../img/hero.jpg");
   background-position: center;
+  background-repeat: no-repeat;
   background-size: 1440px 800px;
   color: var(--secondary-text-color);
   text-align: center;
@@ -267,6 +268,7 @@ ul {
 .section-question {
   background-image: url("../img/bg-town.jpg");
   background-position: center;
+  background-repeat: no-repeat;
   background-size: 1440px 500px;
   text-align: center;
   padding-top: 120px;
